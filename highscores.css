@@ -12,3 +12,13 @@ body{
 }
 
     
+@media screen and (max-width: 768px){
+    #highScoresList{
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+    .high-score{
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    }
+}

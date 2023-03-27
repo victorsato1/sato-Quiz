@@ -70,6 +70,24 @@ body{
 
 @media screen and (max-width: 768px){
     .choice-container{
-        min-width: 40rem;
+        min-width: 30rem;
+    }
+    #progressBar{
+        width: 22rem;
+        height: 2.8rem;
+        border: 0.2rem solid rgb(11, 223, 36);
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .hud-prefix{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .container{
+        min-height: 70px;
+        margin-bottom: 55px;
+        margin-top: 1px;
     }
 }
